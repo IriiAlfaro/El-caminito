@@ -1,0 +1,129 @@
+body {
+	font-family: 'Helvetica' serif;
+	margin: 0;
+}
+
+/*=======
+ Estilos de .main-nav
+=========*/
+
+.main-nav {
+	background-color: #e1e1e1;
+	overflow: hidden;
+}
+
+.main-nav ul {
+	text-align: center;
+}
+
+.main-nav li {
+	display: inline-block;
+	list-style: none;
+	padding: 6px 14px;
+	
+}
+
+.main-nav a {
+	color: #4b4b4b;
+	margin: 0 auto;
+	max-width: 1000px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.main-nav li:hover {
+	background-color: #cbcbcb;
+}
+
+/*=======
+ Estilos de .banner-hotel
+=========*/
+
+.banner-hotel {
+	background: url(../imgs/banner.jpg) no-repeat;
+	height: 648px;
+	overflow: hidden;
+}
+
+.info-banner {
+	color: #FFF;
+	margin-top: 330px;
+	margin-left: 224px
+}
+
+.info-banner h2 {
+	font-size: 4.3rem;
+	margin-bottom: 0;
+	text-shadow: 4px 4px 17px rgba(0, 0, 0, 1);
+}
+
+.info-banner p {
+	font-size: 1.5rem;
+	text-shadow: 4px 4px 17px rgba(0, 0, 0, 1);
+}
+
+/*=======
+ Estilos de .hotel-description
+=========*/
+
+.hotel-description {
+	background-color: #ccc;
+	overflow: hidden;
+}
+
+.hotel-description-content {
+	margin: 0 auto;
+	margin-top: 41px;
+	max-width: 1000px;
+}
+
+.hotel-description-content p {
+	float: left;
+	width: 800px;
+}
+
+.hotel-description-content a {
+	text-decoration: none;
+}
+
+.more-about{
+	display: block;
+	float: right;
+	margin-top: 40px;
+}
+
+.hotel-description-nav {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
