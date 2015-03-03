@@ -1,11 +1,19 @@
 body {
-	font-family: 'Helvetica' serif;
+	font-family: 'Roboto', sans-serif;
 	margin: 0;
 }
 
-/*=======
+a {
+	text-decoration: none;
+}
+
+h4 {
+	border-bottom: 1px solid #CBCBCB;
+}
+
+/*============================================================================================
  Estilos de .main-nav
-=========*/
+==============================================================================================*/
 
 .main-nav {
 	background-color: #e1e1e1;
@@ -13,45 +21,47 @@ body {
 }
 
 .main-nav ul {
+	margin: 0;
 	text-align: center;
 }
 
 .main-nav li {
 	display: inline-block;
 	list-style: none;
-	padding: 6px 14px;
-	
-}
-
-.main-nav a {
-	color: #4b4b4b;
-	margin: 0 auto;
-	max-width: 1000px;
-	text-decoration: none;
-	text-transform: uppercase;
+	padding: 1%;
 }
 
 .main-nav li:hover {
 	background-color: #cbcbcb;
 }
 
-/*=======
+.main-nav a {
+	color: #4b4b4b;
+	margin: 0 auto;
+	max-width: 1400px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+
+/*=============================================================================================
  Estilos de .banner-hotel
-=========*/
+==============================================================================================*/
 
 .banner-hotel {
 	background: url(../imgs/banner.jpg) no-repeat;
-	height: 648px;
+	background-size: cover;
+	height: 51em;
 	overflow: hidden;
 }
 
 .info-banner {
 	color: #FFF;
-	margin-top: 330px;
-	margin-left: 224px
+	margin: 22% 0 0 13%
 }
 
-.info-banner h2 {
+.info-banner h1 {
 	font-size: 4.3rem;
 	margin-bottom: 0;
 	text-shadow: 4px 4px 17px rgba(0, 0, 0, 1);
@@ -62,9 +72,9 @@ body {
 	text-shadow: 4px 4px 17px rgba(0, 0, 0, 1);
 }
 
-/*=======
+/*==============================================================================================
  Estilos de .hotel-description
-=========*/
+==============================================================================================*/
 
 .hotel-description {
 	background-color: #ccc;
@@ -74,25 +84,118 @@ body {
 .hotel-description-content {
 	margin: 0 auto;
 	margin-top: 41px;
-	max-width: 1000px;
+	max-width: 1400px;
 }
 
 .hotel-description-content p {
 	float: left;
-	width: 800px;
-}
-
-.hotel-description-content a {
-	text-decoration: none;
+	width: 71%;
 }
 
 .more-about{
+	background-color: #418DBA;
+	color: #FFF;
 	display: block;
 	float: right;
-	margin-top: 40px;
+	margin: 2% 6% 0 0;
+	padding: 2%;
 }
 
 .hotel-description-nav {
+	clear: both;
+}
+
+.hotel-description-nav ul {
+	background-color: #E1E1E1;
+	padding: 2%;
+}
+
+.hotel-description-nav li {
+    display: inline-block;
+}
+
+.description-list li {
+	background-color: #418DBA;
+	border-radius: 26px;
+	margin: 0 7%;
+    padding: 2%;
+    text-align: center;
+}
+
+.description-list a {
+	color: #FFF;
+}
+
+/*==============================================================================================
+ Estilos de .localization-hotel
+==============================================================================================*/
+
+.localization-hotel {
+	margin: 0 auto;
+	max-width: 1400px;
+	text-align: center;
+	padding: 5rem 0;
+	border-bottom: 1px solid #CBCBCB;
+}
+
+.localization-hotel a {
+	color: #57AAC6;
+}
+
+.localization-hotel a:after {
+	color: #57AAC6;
+	content: ">";
+}
+
+.img {
+	background-color: #808080;
+	height: 9rem;
+	margin-bottom: 60px;
+	width: 15%;
+}
+
+/*==============================================================================================
+ Estilos de .news-hotel
+==============================================================================================*/
+
+.hotel-info {
+	margin: 0 auto;
+	max-width: 1400px;
+}
+
+.hotel-info a {
+	color: #367989; 
+}
+
+.hotel-info a:after {
+	color: #367989;
+	content: ">";
+	padding: 0.5%;
+}
+
+.tittle {
+	color: #367989; 
+	text-transform: bold;
+}
+
+.news-hotel {
+	text-align: justify;
+	width: 40%;
+}
+
+.news-hotel article {
+	border-bottom: 1px solid #CBCBCB;
+}
+
+.events-hotel {
+	width: 36%;
+}
+
+.booking-hotel {
+	width: 26%;
+}
+
+footer {
 	clear: both;
 }
 
