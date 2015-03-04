@@ -11,6 +11,12 @@ h4 {
 	border-bottom: 1px solid #CBCBCB;
 }
 
+footer {
+	background-color: #F2F3F4;
+	clear: both;
+	overflow: hidden;
+}
+
 /*============================================================================================
  Estilos de .main-nav
 ==============================================================================================*/
@@ -42,8 +48,6 @@ h4 {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-
-
 
 /*=============================================================================================
  Estilos de .banner-hotel
@@ -175,34 +179,93 @@ h4 {
 
 .tittle {
 	color: #367989; 
-	text-transform: bold;
+	font-size: 1.1rem;
 }
 
 .news-hotel {
+	float: left;
 	text-align: justify;
-	width: 40%;
+	width: 37%;
 }
 
 .news-hotel article {
 	border-bottom: 1px solid #CBCBCB;
+	padding-bottom: 17px
+}
+
+.all-news {
+	float: right;
+	padding: 15px 0;
+	width: 33%;
 }
 
 .events-hotel {
-	width: 36%;
+	float: left;
+	margin: 0 3%;
+	width: 34%;
+}
+
+.events-hotel article {
+	border-bottom: 1px solid #CBCBCB;
+	padding-bottom: 17px;
 }
 
 .booking-hotel {
-	width: 26%;
+	float: left;
+	width: 23%;
 }
 
-footer {
-	clear: both;
+.booking-hotel a {
+	background-color: #418DBA;
+	color: #FFF;
+	padding: 3% 7%;
 }
 
+.booking-hotel a:after {
+	content: ">";
+	color: #FFF;
+	padding: 0.5%;
+}
 
+/*==============================================================================================
+ Estilos de footer
+==============================================================================================*/
 
+.contact {
+	margin: 0 auto;
+	max-width: 1400px;
+	padding-top: 2.5%; 
+}
 
+.contact p {
+	float: left;
+}
 
+.footer-nav {
+	float: left;
+	margin-left: 13%;
+}
+
+.footer-nav-items li {
+	list-style: none;
+}
+
+.footer-nav-items a {
+	color: #5B87B7;
+}
+
+.contact-info {
+	float: right;
+}
+
+.contact-info span {
+	font-size: 1.4rem;
+	margin-left: 9%;
+}
+
+.contact-info li {
+	list-style: none;
+}
 
 
 
